@@ -72,5 +72,5 @@ Send GC duration metric to Datadog
 ```
 
 # Reference
-https://docs.fluentd.org/v0.12/articles/parser-plugin-overview
+https://docs.fluentd.org/v0.12/articles/parser-plugin-overview  
 https://github.com/alq666/fluent-plugin-datadog
