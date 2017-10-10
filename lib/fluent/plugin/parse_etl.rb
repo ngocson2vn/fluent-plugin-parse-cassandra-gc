@@ -1,6 +1,6 @@
 module Fluent
   class TextParser
-    class JanusPerformanceParser < Parser
+    class GraphEtlParser < Parser
       include Configurable
 
       config_param :time_key, :string, :default => 'time'
@@ -39,6 +39,6 @@ module Fluent
         end
       end
     end
-    register_template('graph_etl', Proc.new { JanusPerformanceParser.new })
+    register_template('graph_etl', Proc.new { GraphEtlParser.new })
   end
 end
